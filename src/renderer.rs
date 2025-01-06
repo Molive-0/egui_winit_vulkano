@@ -51,6 +51,7 @@ use vulkano::{
             input_assembly::InputAssemblyState,
             multisample::MultisampleState,
             rasterization::RasterizationState,
+            depth_stencil::{DepthStencilState, DepthState, CompareOp},
             vertex_input::{Vertex, VertexDefinition},
             viewport::{Scissor, Viewport, ViewportState},
             GraphicsPipelineCreateInfo,
